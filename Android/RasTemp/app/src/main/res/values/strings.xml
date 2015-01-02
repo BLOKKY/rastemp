@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RasTemp</string>
+    <string name="Connect">연결하기</string>
+    <string name="Connected">연결됨</string>
+    <string name="Disconnect">연결 해제</string>
+    <string name="Disconnected">연결 해제됨</string>
+    <string name="Connecting">연결하는 중</string>
+    <string name="C">도</string>
+    <string name="RH_Default">습도 0%</string>
+    <string name="RH">습도</string>
+    <string name="NotConnected">연결되지 않음</string>
+    <string name="FailedToConnect">연결 실패</string>
+    <string name="FailedToConnectToServer">서버 연결에 실패하였습니다.</string>
+    <string name="ErrorOccur">오류 발생</string>
+    <string name="CommunicationProblem">서버와 통신 중 문제가 발생하였습니다.</string>
+    <string name="AddressEmpty">주소 비었음</string>
+    <string name="EnterAddress">서버 주소를 입력해주세요.</string>
+    <string name="Ok">확인</string>
+
+</resources>
