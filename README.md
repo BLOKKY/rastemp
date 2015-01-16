@@ -6,6 +6,7 @@ Raspberry Pi Temp&RH Monitoring system
 Install:
 
 cd ~
+
 git clone https://github.com/IS1/rastemp.git
 
 cd rastemp
