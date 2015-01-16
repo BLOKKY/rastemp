@@ -113,7 +113,7 @@ public class MainActivity extends ActionBarActivity{
     private final String TAG = getClass().getSimpleName();
     public static final String PREFS_NAME = "RASTEMP";
     public AlertDialog.Builder alert;
-    public RHTThread rhtt = null;
+    public RHTThread rhtt;
     public Button ConnBtn;
     private SharedPreferences spShared;
 
