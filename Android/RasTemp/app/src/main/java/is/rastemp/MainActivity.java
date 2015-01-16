@@ -113,7 +113,7 @@ public class MainActivity extends ActionBarActivity{
     private final String TAG = getClass().getSimpleName();
     public static final String PREFS_NAME = "RASTEMP";
     public AlertDialog.Builder alert;
-    public RHTThread rhtt;
+    public RHTThread rhtt = null;
     public Button ConnBtn;
     private SharedPreferences spShared;
 
@@ -194,8 +194,9 @@ public class MainActivity extends ActionBarActivity{
     public void onStop(){
         super.onStop();
         try {
-            rhtt.sock.close();
-        }catch(Exception e){}
+            if(rhtt.sock != null)
+                 rhtt.sock.close();
+        }catch(IOException ioe){}
         rhtt.interrupt();
         try{
             if(rhtt.isAlive())
