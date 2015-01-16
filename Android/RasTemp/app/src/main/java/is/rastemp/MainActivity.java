@@ -195,7 +195,7 @@ public class MainActivity extends ActionBarActivity{
         super.onStop();
         try {
             rhtt.sock.close();
-        }catch(IOException ioe){}
+        }catch(Exception e){}
         rhtt.interrupt();
         try{
             if(rhtt.isAlive())
