@@ -7,7 +7,7 @@ Install:
 
 cd ~
 
-git clone https://github.com/IS1/rastemp.git
+git clone https://github.com/BLOKKY/rastemp.git
 
 cd rastemp
 
